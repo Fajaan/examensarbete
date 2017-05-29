@@ -1,0 +1,14 @@
+<!-- Galleri directive & modal -->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    	<div class="modal-content">
+        	<div class="modal-body" style="height:400px;">
+        		<uib-carousel id="carousel2" active="active2" interval="myInterval" no-wrap="noWrapSlides">
+  					<uib-slide ng-repeat="pic in pics" index="$index">
+	  					<div class="item" ng-style="{'background-image':'url(' + pic + ')'}"></div>
+  					</uib-slide>
+				</uib-carousel>
+			</div>
+    	</div> 
+    </div>
+</div>

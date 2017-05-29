@@ -1,0 +1,26 @@
+{
+  "name": "godaisushibar",
+  "version": "1.0.0",
+  "description": "creating html",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fajaan/godaisushibar.git"
+  },
+  "author": "godai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fajaan/godaisushibar/issues"
+  },
+  "homepage": "https://github.com/Fajaan/godaisushibar#readme",
+  "dependencies": {
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "express": "*",
+    "gulp": "^3.9.1",
+    "gulp-less": "*"
+  }
+}
